@@ -1,5 +1,3 @@
 <?php 
 ?>
-<h1>Hello World!!!</h1>
-<?php
-?>
+<h1>Blank Page</h1>
