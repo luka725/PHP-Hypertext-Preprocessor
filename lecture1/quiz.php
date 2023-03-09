@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>quiz answers</title>
 </head>
 <body>
     <?php
@@ -27,10 +27,10 @@
         //var_dump($array_answers);
         $correct_answer = 0;
         foreach($array_answers as $key => $value):
-            //echo $_GET[$key];
-            if($value[$_GET[$key]] === true):
+            //echo $_POST[$key];
+            if($value[$_POST[$key]] === true):
                 $correct_answer++;
-                //echo $_GET[$key];
+                //echo $_POST[$key];
             endif;
         endforeach;
         echo "ტესტიდან მიღებული სწორი პასუხების რაოდენობა შეადგენს: "." ".$correct_answer."/".$question_count;
