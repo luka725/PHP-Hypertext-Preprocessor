@@ -6,13 +6,7 @@ function makeMatrix( $column, $row, $range, $task )
     for($i = 1; $i <= $row; $i++):
         $matrix[$i] = [];
         for($k = 1; $k <= $column; $k++):
-            if($task === 2 ):
-                $matrix[$i][$k] = rand($range[0], $range[1]);
-            elseif($task === 3):
-                $matrix[$i][$k] = $i + $k;
-            else:
-                echo "Incorrect Task Number Accoured\n Please Enter Either 2 Or 4";
-            endif;
+            $matrix[$i][$k] = ($task === 2 ) ? rand($range[0], $range[1]) : ($task === 3 ) ? $i + $k : "Incorrect Task Number Accoured\n Please Enter Either 2 Or 4";
         endfor;
     endfor;
 
