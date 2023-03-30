@@ -9,16 +9,16 @@
 <body>
 <?php
     $arr = [];
-    for($i = 0; $i <= 12; $i++){
+    for($i = 0; $i <= 12; $i++):
         $arr[$i] = rand(10,100);
-    }
+    endfor;
     echo "<pre>";
     print_r($arr);
     echo "<pre>";
-    $number = $_POST["number"];
     $higher = 0;
     $lower = 0;
     if(isset($_POST['number'])):
+        $number = $_POST["number"];
         foreach ($arr as $item):
             if($number < $item):
                 $higher++;

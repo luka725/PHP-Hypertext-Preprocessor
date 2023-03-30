@@ -1,0 +1,23 @@
+.container{
+    margin:auto;
+    width: 50%;
+    border: solid 1px black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tb{
+    border-collapse: collapse;
+}
+.tb tr td, th{
+    border: solid 1px black;
+    padding: 5px;
+}
+.tb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
