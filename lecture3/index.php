@@ -19,7 +19,6 @@
             if($col != '' && $row != '' && $start != '' && $end != ''){
                 $starter = true;
             }
-            echo var_dump($_POST);
         }
 
         function validate($data){
