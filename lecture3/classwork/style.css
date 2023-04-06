@@ -1,0 +1,12 @@
+.container{
+    margin: auto;
+    width: 50%;
+    border: solid 1px;
+    padding: 10px;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+}

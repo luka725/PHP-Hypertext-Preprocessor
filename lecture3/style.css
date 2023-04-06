@@ -1,12 +1,29 @@
-.container{
-    margin: auto;
-    width: 50%;
-    border: solid 1px;
-    padding: 10px;
+.box, .matrixcontainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
-
-.error{
-    color: red;
-    font-weight: bold;
-    margin: 10px;
+.container{
+    border: solid 0.5px gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+.ab > input{
+    width: 40px;
+}
+.matrix{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    gap: 0px;
+}
+.row > div{
+    border: solid 0.5px black;
+    padding: 3px;
+    width: 5vw;
+    text-align: center;
 }

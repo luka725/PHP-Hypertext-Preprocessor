@@ -1,0 +1,13 @@
+.container{
+    width: 60%;
+    border: solid 2px green;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+}
+.form{
+    flex-grow: 1;
+}
+.list{
+    flex-grow: 1;
+}
