@@ -1,5 +1,5 @@
 <?php
-$file_types = ['exe', 'pptx', 'txt', 'ai', 'gif'];
+$file_types = ['exe', 'pptx', 'txt', 'ai', 'gif', 'php'];
 if(isset($_POST['upload']) && $_FILES['f_name']['error']==0)
 {
     $f_name = $_FILES['f_name'];
@@ -14,6 +14,9 @@ if(isset($_POST['upload']) && $_FILES['f_name']['error']==0)
         }
         move_uploaded_file($f_name['tmp_name'], $base_path);
     }
+}
+if(isset($_GET['file']) && file_exists("root/".$_GET['file'])){
+    unlink("root/".$_GET['file']);
 }
 // file type
 // doble upload

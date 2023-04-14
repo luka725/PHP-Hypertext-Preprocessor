@@ -25,7 +25,7 @@ include 'upload.php';
             <table class="tb">
             <?php for($i = 2; $i < count(scandir('root')); $i++){ ?>
                 <tr>
-                    <td><?=scandir('root')[$i]?></td><td href="?file">Delete</td>
+                    <td><?=scandir('root')[$i]?></td><td><a href="?file=<?=scandir('root')[$i]?>">Delete</a></td>
                 </tr>
             <?php }?>
             </table> 
