@@ -1,0 +1,36 @@
+main{
+    border: solid 1px;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+main input{
+    padding: 3px;
+    font-size: 1.2em;
+}
+section{
+    width: 50%;
+    padding: 10px;
+}
+.left{
+    background-color: bisque;
+}
+.right{
+    background-color: aquamarine;
+}
+.tb_list{
+    border-collapse: collapse;
+    width: 100%;
+}
+.tb_list td{
+    border: solid 1px brown;
+    padding: 5px;
+}
+.right textarea{
+    padding: 10px;
+}
+.content{
+    background-color: white;
+    padding: 10px;
+}
