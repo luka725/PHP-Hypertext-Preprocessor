@@ -1,0 +1,21 @@
+.main_wrapper{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+.form_wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.tb{
+    border-collapse: collapse;
+    width: 100%;
+}
+.tb td{
+    border: solid 1px black;
+    padding: 5px;
+}

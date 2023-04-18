@@ -1,0 +1,29 @@
+.main_wrapper{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.form_wrapper{
+    background-color: aqua;
+    width: 50%;
+    padding: 20px;
+}
+.files_wrapper{
+    background-color: antiquewhite;
+    width: 50%;
+    padding: 20px;
+}
+.list_wrapper{
+    margin-top: 20px;
+}
+.list_wrapper table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.list_wrapper table td{
+    border: solid 1px;
+    padding: 10px;
+    text-align: center;
+}
